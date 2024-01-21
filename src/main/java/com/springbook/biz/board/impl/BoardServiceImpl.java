@@ -13,6 +13,7 @@ public class BoardServiceImpl implements BoardService {
 	@Autowired
 	private BoardDAOSpring boardDAO;
 	
+
 	public void insertBoard(BoardVO vo) {
 		/*
 		if(vo.getSeq() == 0) {
